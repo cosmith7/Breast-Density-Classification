@@ -28,7 +28,6 @@ breast-density-classification/
 │
 ├── README.md
 ├── breast_density_classification_mlproject.ipynb
-├── breast_density_data.zip
 │   
 ├── results/
 │   ├── class_distribution.png
@@ -39,6 +38,8 @@ breast-density-classification/
 │   ├── saliency_map-C
 │   └── saliency_map-D
 ```
+*Dataset not provided due to file size.*
+
 To run the project, the following Python libraries are required:
 * ```torch```
 * ```torchvision```
