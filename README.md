@@ -38,8 +38,6 @@ breast-density-classification/
 │   ├── saliency_map-C
 │   └── saliency_map-D
 ```
-*Dataset not provided due to file size.*
-
 To run the project, the following Python libraries are required:
 * ```torch```
 * ```torchvision```
@@ -55,6 +53,7 @@ To run the project, the following Python libraries are required:
 ## Methodology
 Data Preparation
 - Loaded mammogram images and metadata from the RSNA dataset
+  - https://www.kaggle.com/competitions/rsna-breast-cancer-detection/overview
 - Stratified train/validation/test split (70/15/15) to maintain class balance
 - Applied image transformations: resizing, normalization
 
